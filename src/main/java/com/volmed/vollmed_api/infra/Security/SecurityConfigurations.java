@@ -22,7 +22,6 @@ public class SecurityConfigurations {
     @Autowired
     private FilterToken filterToken;
 
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception{
         return httpSecurity.csrf(AbstractHttpConfigurer::disable)
