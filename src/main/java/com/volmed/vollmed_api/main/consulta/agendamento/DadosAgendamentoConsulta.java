@@ -1,4 +1,4 @@
-package com.volmed.vollmed_api.main.consulta;
+package com.volmed.vollmed_api.main.consulta.agendamento;
 
 import com.volmed.vollmed_api.main.medico.Especialidade;
 import jakarta.validation.constraints.Future;

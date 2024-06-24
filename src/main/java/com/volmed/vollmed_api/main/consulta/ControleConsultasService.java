@@ -1,18 +1,19 @@
 package com.volmed.vollmed_api.main.consulta;
 
 import com.volmed.vollmed_api.infra.exception.ValidacaoException;
+import com.volmed.vollmed_api.main.consulta.agendamento.DadosAgendamentoConsulta;
+import com.volmed.vollmed_api.main.consulta.agendamento.DadosDetalhamentoConsulta;
 import com.volmed.vollmed_api.main.medico.Medico;
 import com.volmed.vollmed_api.main.medico.MedicoRepository;
 import com.volmed.vollmed_api.main.paciente.PacienteRepository;
 import com.volmed.vollmed_api.main.validacoes.validacaoAgendamento.IValidacoes;
-import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ControleAgendamentoConsultas {
+public class ControleConsultasService {
 
     @Autowired
     private MedicoRepository medicoRepository;

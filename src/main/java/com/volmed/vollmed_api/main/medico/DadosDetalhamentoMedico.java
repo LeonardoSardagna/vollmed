@@ -1,6 +1,5 @@
 package com.volmed.vollmed_api.main.medico;
 
-import com.volmed.vollmed_api.main.consulta.DadosDetalhamentoConsulta;
 import com.volmed.vollmed_api.main.endereco.Endereco;
 
 public record DadosDetalhamentoMedico(

@@ -2,7 +2,7 @@ package com.volmed.vollmed_api.main.validacoes.validacaoAgendamento;
 
 import com.volmed.vollmed_api.infra.exception.ValidacaoException;
 import com.volmed.vollmed_api.main.consulta.ConsultaRepository;
-import com.volmed.vollmed_api.main.consulta.DadosAgendamentoConsulta;
+import com.volmed.vollmed_api.main.consulta.agendamento.DadosAgendamentoConsulta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

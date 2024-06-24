@@ -1,7 +1,7 @@
 package com.volmed.vollmed_api.main.validacoes.validacaoAgendamento;
 
 import com.volmed.vollmed_api.infra.exception.ValidacaoException;
-import com.volmed.vollmed_api.main.consulta.DadosAgendamentoConsulta;
+import com.volmed.vollmed_api.main.consulta.agendamento.DadosAgendamentoConsulta;
 import org.springframework.stereotype.Component;
 import java.time.Duration;
 import java.time.LocalDateTime;

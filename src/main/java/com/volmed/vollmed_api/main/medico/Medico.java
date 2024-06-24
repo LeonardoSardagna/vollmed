@@ -32,7 +32,7 @@ public class Medico {
         this.email = dados.email();
         this.telefone = dados.telefone();
         this.crm = dados.crm();
-        this.especialidade = dados.especialidade();
+        this.especialidade = Especialidade.fromString(String.valueOf(dados.especialidade()));
         this.endereco = new Endereco(dados.endereco());
         this.ativo = true;
     }

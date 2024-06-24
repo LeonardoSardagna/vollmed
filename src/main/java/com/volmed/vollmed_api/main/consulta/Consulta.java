@@ -1,5 +1,6 @@
 package com.volmed.vollmed_api.main.consulta;
 
+import com.volmed.vollmed_api.main.consulta.cancelamento.CancelamentoMotivo;
 import com.volmed.vollmed_api.main.medico.Medico;
 import com.volmed.vollmed_api.main.paciente.Paciente;
 import jakarta.persistence.*;
@@ -29,4 +30,18 @@ public class Consulta {
     private Paciente paciente;
 
     private LocalDateTime data;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "motivo_cancelamento")
+    private CancelamentoMotivo motivo;
+
+    public Consulta(Long id, Medico medico, Paciente paciente, LocalDateTime data) {
+        this.medico = medico;
+        this.paciente = paciente;
+        this.data = data;
+    }
+
+    public void cancelar(CancelamentoMotivo motivo) {
+        this.motivo = motivo;
+    }
 }

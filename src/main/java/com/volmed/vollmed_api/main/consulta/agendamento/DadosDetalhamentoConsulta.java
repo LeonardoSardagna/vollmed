@@ -1,4 +1,6 @@
-package com.volmed.vollmed_api.main.consulta;
+package com.volmed.vollmed_api.main.consulta.agendamento;
+
+import com.volmed.vollmed_api.main.consulta.Consulta;
 
 import java.time.LocalDateTime;
 
