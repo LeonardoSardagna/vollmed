@@ -2,11 +2,11 @@
 
 ###
 
-Vollmed é uma API RESTful desenvolvida em Java utilizando o Spring Boot. O projeto tem como objetivo gerenciar o cadastro de médicos, pacientes e consultas, oferecendo métodos de autenticação para acessar a API. Este projeto pessoal foi desenvolvido para testar minhas habilidades com Java e Spring Boot. 
+VollMed is a RESTful API developed in Java using Spring Boot. The project aims to manage the registration of doctors, patients, and appointments, offering authentication methods to access the API. This personal project was developed to test my skills with Java and Spring Boot. 
 
 ###
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Java
 - Spring Boot
@@ -19,18 +19,17 @@ Vollmed é uma API RESTful desenvolvida em Java utilizando o Spring Boot. O proj
 
 ###
 
-## Funcionalidades
+## Features
 
-- Cadastro de Médicos: Gerenciamento completo do ciclo de vida dos médicos.
-- Cadastro de Pacientes: Gerenciamento completo do ciclo de vida dos pacientes.
-- Cadastro de Consultas: Gerenciamento completo do ciclo de vida das consultas.
-- Autenticação e Autorização: Utilização de JWT para controlar o acesso à API.
-- Validações: Uso do Bean Validation para garantir a integridade dos dados.
-- Documentação das Rotas: Utilização do Springdoc para gerar a documentação das rotas da API.
+- Doctor Registration: Complete management of the doctor's lifecycle.
+- Patient Registration: Complete management of the patient's lifecycle.
+- Appointment Registration: Complete management of the appointment's lifecycle.
+- Authentication and Authorization: Use of JWT to control access to the API.
+- Validations: Use of Bean Validation to ensure data integrity.
+- Route Documentation: Use of Springdoc to generate the API route documentation.
 
 ###
 
-## Migração do Banco de Dados
+## Database Migration
 
-O Flyway é utilizado para gerenciar as migrações do banco de dados. Certifique-se de que as migrações estão na pasta resources/db/migration. Para aplicar as migrações, basta iniciar a aplicação e o Flyway cuidará do resto.
-    
+Flyway is used to manage database migrations. Ensure that the migrations are in the resources/db/migration folder. To apply the migrations, just start the application and Flyway will take care of the rest.
