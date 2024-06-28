@@ -2,17 +2,16 @@ package com.volmed.vollmed_api.main.medico;
 
 import com.volmed.vollmed_api.main.endereco.Endereco;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
+@ToString
 public class Medico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

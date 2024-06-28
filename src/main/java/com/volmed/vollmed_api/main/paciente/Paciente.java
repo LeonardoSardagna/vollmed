@@ -2,10 +2,7 @@ package com.volmed.vollmed_api.main.paciente;
 
 import com.volmed.vollmed_api.main.endereco.Endereco;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Table(name = "pacientes")
 @Entity(name = "Paciente")
@@ -13,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
+@ToString
 public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

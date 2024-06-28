@@ -1,6 +1,5 @@
 package com.volmed.vollmed_api.main.medico;
 
-import com.fasterxml.jackson.annotation.JacksonInject;
 import com.fasterxml.jackson.annotation.JsonCreator;
 
 public enum Especialidade {

@@ -9,7 +9,6 @@ import com.volmed.vollmed_api.main.paciente.PacienteRepository;
 import com.volmed.vollmed_api.main.validacoes.validacaoAgendamento.IValidacoes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
